@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/MY-Portfolio" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           <h1 style={{fontSize:"50px",fontFamily:"i",fontWeight:"bold",color:"#be6adf"}}>yV</h1>
         </Navbar.Brand>
@@ -55,7 +55,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/MY-Portfolio" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
