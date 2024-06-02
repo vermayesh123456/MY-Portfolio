@@ -11,16 +11,16 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 800,
             },
           },
           line_linked: {
             enable: false,
-            opacity: 0.03,
+            opacity: 0.07,
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 35,
           },
           size: {
             value: 1,
